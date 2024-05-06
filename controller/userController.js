@@ -24,7 +24,7 @@ class UserController {
     .then((message) => {
       console.log('Usuario registrado con éxito:', message); // Mensaje de depuración
       // Redirige al usuario a la página de inicio de sesión después del registro exitoso
-      res.redirect('/view/login.html');
+      res.redirect('https://joanthecorner.github.io/entregable08/view/login.html');
     })
       .catch((error) => {
         console.error('Error al intentar registrar usuario:', error); // Mensaje de depuración
