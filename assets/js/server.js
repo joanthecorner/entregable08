@@ -48,7 +48,7 @@ app.get('/view/login', (req, res) => {
 });
 
 // Rutas sin configuración CORS específica
-app.post('/registera', (req, res) => {
+app.post('/register', (req, res) => {
   console.log("Solicitud POST recibida en /register");
   userController.registerUser(req, res);
 });
